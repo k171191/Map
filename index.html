@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Map Editor</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="toolbar">
+        <button id="add1x1">1x1 Square</button>
+        <button id="add2x2">2x2 Square</button>
+        <button id="add3x3">3x3 Square</button>
+        <button id="add4x4">4x4 Square</button>
+        <button id="add5x5">5x5 Square</button>
+        <button id="add6x6">6x6 Square</button>
+        <button id="add7x7">7x7 Square</button>
+        <button id="add8x8">8x8 Square</button>
+        <button id="add9x9">9x9 Square</button>
+        <button id="eraser">Eraser</button>
+        <input type="color" id="colorPicker">
+        <button id="exportMap">Export Map</button>
+        <input type="file" id="importMap" style="display: none;">
+        <button id="importMapButton">Import Map</button>
+        <span id="scaleDisplay" class="scale-label"></span>
+    </div>
+    <canvas id="mapCanvas" width="2000" height="2000"></canvas>
+    <script src="script.js"></script>
+</body>
+</html>
