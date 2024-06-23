@@ -1,0 +1,28 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.toolbar {
+    margin-bottom: 10px;
+    position: relative;
+}
+
+canvas {
+    border: 1px solid black;
+}
+
+.coordinate-label {
+    position: absolute;
+    background-color: white;
+    border: 1px solid black;
+    padding: 2px;
+    font-size: 14px;
+    pointer-events: none; /* 使标签不可点击 */
+}
+
+.scale-label {
+    margin-left: 10px;
+    font-size: 14px;
+}
